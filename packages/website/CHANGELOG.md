@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.9.0](https://www.github.com/nftstorage/nft.storage/compare/website-v1.8.2...website-v1.9.0) (2021-10-28)
+
+
+### Features
+
+* add user survey ([#658](https://www.github.com/nftstorage/nft.storage/issues/658)) ([cf22e89](https://www.github.com/nftstorage/nft.storage/commit/cf22e89ac602b9744b801e36c5e43e6572713e03))
+* update nav links ([#661](https://www.github.com/nftstorage/nft.storage/issues/661)) ([0211701](https://www.github.com/nftstorage/nft.storage/commit/0211701107ad049f04fbe0db79eb78ec6fe8aba8))
+
 ### [1.8.2](https://www.github.com/nftstorage/nft.storage/compare/website-v1.8.1...website-v1.8.2) (2021-10-22)
 
 

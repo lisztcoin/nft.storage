@@ -1,3 +1,9 @@
+For our projects:
+
+- prepare a folder with 10000 images.
+- Loop storeBlob and note cid down.
+- Store metadata individually for tokens. We can't use the json server anymore.
+
 # nft.storage Node.js examples
 
 Examples for using the nft.storage client from Node.js.

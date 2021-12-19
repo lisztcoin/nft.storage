@@ -6,10 +6,11 @@ const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJkaWQ6ZXRocjoweDMz
 
 async function main() {
   const storage = new NFTStorage({ endpoint, token })
-  const cid = await storage.storeDirectory([
-    new File([await fs.promises.readFile('pinpie.jpg')], 'pinpie.jpg'),
-    new File([await fs.promises.readFile('seamonster.jpg')], 'seamonster.jpg'),
-  ])
+  var file_list = []
+  for (let i = 0; i < 10000; i++) {
+    file_list.push(new File([await fs.promises.readFile('packages/client/examples/node.js/metadata/' + i + '.json')], i.toString()))
+  }
+  const cid = await storage.storeDirectory(file_list)
   console.log({ cid })
   const status = await storage.status(cid)
   console.log(status)

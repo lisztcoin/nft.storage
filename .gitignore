@@ -39,3 +39,5 @@ site/public
 *.http
 .local
 .supabase
+
+packages/client/examples/node.js/images/
